@@ -15,6 +15,9 @@ def main():
 
     image = Image.open("aguia6.jpg")
     st.image(image,caption="",use_column_width=True)
+    
+    image1 = Image.open("aguia2.jpg")
+    st.image(image1,caption="",use_column_width=True)
 
 
 if __name__ == '__main__':
