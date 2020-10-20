@@ -13,7 +13,7 @@ def main():
               """
     st.markdown(html_page, unsafe_allow_html=True)    
 
-    image = Image.open("aguia2.jpg")
+    image = Image.open("aguia6.jpg")
     st.image(image,caption="",use_column_width=True)
 
 
