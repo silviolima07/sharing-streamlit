@@ -14,7 +14,7 @@ def main():
     st.markdown(html_page, unsafe_allow_html=True)    
 
     image = Image.open("aguia2.jpg")
-    st.sidebar.image(image,caption="",use_column_width=True)
+    st.image(image,caption="",use_column_width=True)
 
 
 if __name__ == '__main__':
